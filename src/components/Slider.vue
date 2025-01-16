@@ -1,6 +1,11 @@
 <template>
   <div class="slider-container" @click="handleClick($event)">
-    <div class="slider-container" @keyup.left="prevTrack" @keyup.right="nextTrack" tabindex="0">
+    <div
+      class="slider-container"
+      @keyup.left="prevTrack"
+      @keyup.right="nextTrack"
+      tabindex="0"
+    >
       <div
         class="slide"
         v-for="(track, index) in tracks"
@@ -15,7 +20,9 @@
         <div class="info">
           <h1>{{ track.title }}</h1>
           <h2>{{ track.artist }}</h2>
-          <p>Regalo de <strong>{{ track.recommendedBy }}</strong></p>
+          <p>
+            Regalo de <strong>{{ track.recommendedBy }}</strong>
+          </p>
           <blockquote>"{{ track.reason }}"</blockquote>
           <audio :src="track.previewUrl" controls autoplay></audio>
         </div>
@@ -26,24 +33,25 @@
 
 <script>
 export default {
-  name: 'Slider',
+  name: "Slider",
   data() {
     return {
       tracks: [
         {
-          id: 'xxx',
-          title: 'Ya no te acuerdah',
-          artist: 'Triple XXX',
-          recomendedBy: 'Pres',
-          readon: 'La M manda',
-          previewUrl: '',
-          albumCoverUrl: 'https://mp3.hhgroups.com/albumes/Triple-XXX-Primera-clase-31868_front.jpg'
-        }
+          id: "xxx",
+          title: "Ya no te acuerdah",
+          artist: "Triple XXX",
+          recomendedBy: "Pres",
+          readon: "La M manda",
+          previewUrl: "",
+          albumCoverUrl:
+            "https://mp3.hhgroups.com/albumes/Triple-XXX-Primera-clase-31868_front.jpg",
+        },
         // Aquí irán tus 40 canciones o las que sean, con su info
         // { id, title, artist, recommendedBy, reason, previewUrl, albumCoverUrl, etc. }
       ],
-      currentIndex: 0
-    }
+      currentIndex: 0,
+    };
   },
   mounted() {
     // Para que el componente tenga focus y reciba eventos de teclado:
@@ -51,10 +59,11 @@ export default {
   },
   methods: {
     handleClick(event) {
-    if (event.clientX < window.innerWidth / 2) {
-      this.prevTrack();
-    } else {
-      this.nextTrack();
+      if (event.clientX < window.innerWidth / 2) {
+        this.prevTrack();
+      } else {
+        this.nextTrack();
+      }
     },
     nextTrack() {
       if (this.currentIndex < this.tracks.length - 1) {
@@ -71,9 +80,9 @@ export default {
         // Si quieres que sea cíclico
         this.currentIndex = this.tracks.length - 1;
       }
-    }
-  }
-}
+    },
+  },
+};
 </script>
 
 <style scoped>
