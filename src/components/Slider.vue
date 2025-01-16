@@ -1,55 +1,44 @@
 <template>
-  <div class="slider-container" @click="handleClick($event)">
+  <div
+    class="slider-container"
+    @keyup.left="prevTrack"
+    @keyup.right="nextTrack"
+    @click="handleClick($event)"
+    tabindex="0"
+  >
     <div
-      class="slider-container"
-      @keyup.left="prevTrack"
-      @keyup.right="nextTrack"
-      tabindex="0"
+      class="slide"
+      v-for="(track, index) in tracks"
+      :key="track.title"
+      v-show="currentIndex === index"
+      :style="{
+        backgroundImage: `url(${track.image})`,
+      }"
+      @click.left="prevTrack"
+      @click.right="nextTrack"
     >
-      <div
-        class="slide"
-        v-for="(track, index) in tracks"
-        :key="track.id"
-        v-show="currentIndex === index"
-        :style="{
-          backgroundImage: `url(${track.albumCoverUrl})`,
-        }"
-        @click.left="prevTrack"
-        @click.right="nextTrack"
-      >
-        <div class="info">
-          <h1>{{ track.title }}</h1>
-          <h2>{{ track.artist }}</h2>
-          <p>
-            Regalo de <strong>{{ track.recommendedBy }}</strong>
-          </p>
-          <blockquote>"{{ track.reason }}"</blockquote>
-          <audio :src="track.previewUrl" controls autoplay></audio>
-        </div>
+      <div class="info">
+        <h1>{{ track.name }}</h1>
+        <h2>{{ track.artist }}</h2>
+        <p>
+          Regalo de <strong>{{ track.recommendedBy }}</strong>
+        </p>
+        <blockquote>"{{ track.reason }}"</blockquote>
+        <audio :src="track.audio" controls autoplay></audio>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+
+import tracks from '../tracks.json';
+
 export default {
   name: "Slider",
   data() {
     return {
-      tracks: [
-        {
-          id: "xxx",
-          title: "Ya no te acuerdah",
-          artist: "Triple XXX",
-          recomendedBy: "Pres",
-          readon: "La M manda",
-          previewUrl: "",
-          albumCoverUrl:
-            "https://mp3.hhgroups.com/albumes/Triple-XXX-Primera-clase-31868_front.jpg",
-        },
-        // Aquí irán tus 40 canciones o las que sean, con su info
-        // { id, title, artist, recommendedBy, reason, previewUrl, albumCoverUrl, etc. }
-      ],
+      tracks: tracks,
       currentIndex: 0,
     };
   },
@@ -111,12 +100,13 @@ export default {
   justify-content: center;
   align-items: center;
   color: white;
+  opacity: 1;
   /* Transición suave */
   transition: opacity 0.8s ease-in-out;
 }
 
 .slide:not([v-show="true"]) {
-  opacity: 0;
+  opacity: 1;
   pointer-events: none;
 }
 
