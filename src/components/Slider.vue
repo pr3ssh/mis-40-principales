@@ -15,16 +15,6 @@
     >
       <!-- Sección superior 80% -->
       <div class="slide-top">
-        <div class="text-wrapper">
-          <!-- Persona que recomienda -->
-          <h2 class="message">{{ track.message }}</h2>
-          <!-- Mensaje o frase -->
-          <p class="recommendedBy">{{ track.recommendedBy }}</p>
-        </div>
-      </div>
-
-      <!-- Sección inferior 20% -->
-      <div class="slide-bottom">
         <div class="cover-wrapper">
           <img
             class="album-cover"
@@ -33,6 +23,16 @@
             v-if="track.image"
           />
         </div>
+        <div class="text-wrapper">
+          <!-- Persona que recomienda -->
+          <h2 class="message">{{ track.reason }}</h2>
+          <!-- Mensaje o frase -->
+          <p class="recommendedBy">{{ track.recommendedBy }}</p>
+        </div>
+      </div>
+
+      <!-- Sección inferior 20% -->
+      <div class="slide-bottom">
         <div class="info-wrapper">
           <h3 class="song-title">{{ track.name }}</h3>
           <h4 class="song-artist">{{ track.artist }}</h4>
