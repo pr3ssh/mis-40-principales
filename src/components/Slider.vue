@@ -117,10 +117,10 @@ export default {
 }
 
 .slide-top {
-  flex: 0 0 80%;
+  flex: 0 0 calc(80vh - 24px);
   display: flex;
   align-items: center;
-  padding: 2vw;
+  padding: 12px;
 }
 
 .text-wrapper {
@@ -140,12 +140,24 @@ export default {
 }
 
 .slide-bottom {
-  flex: 0 0 20%;
+  flex: 0 0 calc(20vh - 24px);
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 1vw;
+  padding: 12px;
   gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .slide-top {
+    flex: 0 0 calc(80vh - 72px);
+    padding: 36px;
+  }
+
+  .slide-bottom {
+    flex: 0 0 calc(20vh - 72px);
+    padding: 36px;
+  }
 }
 
 .cover-wrapper {

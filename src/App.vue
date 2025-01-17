@@ -1,5 +1,5 @@
 <script setup>
-import Slider from './components/Slider.vue'
+import Slider from "./components/Slider.vue";
 </script>
 
 <template>
