@@ -1,32 +1,45 @@
-var fs = require('fs')
-const fetch = require('isomorphic-unfetch')
-const { getData, getPreview, getTracks, getDetails } = require('spotify-url-info')(fetch)
+var fs = require("fs");
+const path = require("path");
+const fetch = require("isomorphic-unfetch");
+const { getData, getPreview, getTracks, getDetails } =
+  require("spotify-url-info")(fetch);
 
-let tracks = []
+let tracks = [];
 
-getDetails('https://open.spotify.com/playlist/5fVeETc29lXJOcYNuPlxAd?si=8e1086cef08c4a5c').then(data => {
+getDetails(
+  "https://open.spotify.com/playlist/5fVeETc29lXJOcYNuPlxAd?si=8e1086cef08c4a5c"
+).then((data) => {
+  tracks = data["tracks"];
 
-  tracks = data['tracks']
-  tracks.forEach(t => {
-    uri = t['uri'].split(':')
-    getPreview('https://open.spotify.com/track/' + uri[2]).then(data => {
-      t['audio'] = data['audio']
-      t['image'] = data['image']
+  const previewPromises = tracks.map((t) => {
+    const uri = t["uri"].replace("spotify:track:", "");
+    const getPreviewUrl = "https://open.spotify.com/track/" + uri;
+
+    return getPreview(getPreviewUrl, {
+      headers: {
+        "user-agent": "googlebot",
+      },
     })
-    t['recommendedBy'] = ''
-    t['reason'] = ''
-  })
+      .then((d) => {
+        t["image"] = d["image"];
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  });
 
-  require('fs').writeFile(
-    './src/tracks.json',
-    JSON.stringify(tracks),
-    function (err) {
-      if (err) {
-          console.error('Crap happens')
-      }
-    }
-  )
+  Promise.all(previewPromises)
+    .then(() => {
+      tracks.forEach((t) => {
+        t["recommendedBy"] = "";
+        t["reason"] = "";
+      });
 
-}
-)
-
+      const filePath = path.join(__dirname, "tracks.json");
+      fs.writeFileSync(filePath, JSON.stringify(tracks, null, 2), "utf-8");
+      console.log(`Tracks data written to ${filePath}`);
+    })
+    .catch((err) => {
+      console.log(err);
+    });
+});
