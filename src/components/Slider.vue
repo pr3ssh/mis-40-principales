@@ -3,18 +3,15 @@
     class="slider-container"
     @keyup.left="prevTrack"
     @keyup.right="nextTrack"
-    @click="handleClick($event)"
+    @click.prevent="handleClick($event)"
     tabindex="0"
   >
     <div
       class="slide"
       v-for="(track, index) in tracks"
+      v-show="index === currentIndex"
       :key="track.name"
-      @click.left="prevTrack"
-      @click.right="nextTrack"
-      :style="{
-      background: gradients[currentIndex % gradients.length],
-      }"
+      :style="{ background: gradients[currentIndex % gradients.length] }"
     >
       <!-- Sección superior 80% -->
       <div class="slide-top">
@@ -46,11 +43,11 @@
 </template>
 
 <script>
-import tracks from '../tracks.json';
-import gradients from '../gradients.js';
+import tracks from "../tracks.json";
+import gradients from "../gradients.json";
 
 export default {
-  name: 'Slider',
+  name: "Slider",
   data() {
     return {
       tracks: tracks,
@@ -86,7 +83,7 @@ export default {
         this.currentIndex = this.tracks.length - 1;
       }
     },
-  }
+  },
 };
 </script>
 
@@ -117,11 +114,6 @@ export default {
   color: #fff;
   outline: none;
   opacity: 1;
-}
-
-.slide:not([v-show="true"]) {
-  opacity: 0;
-  pointer-events: none;
 }
 
 .slide-top {
