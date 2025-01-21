@@ -15,14 +15,6 @@
     >
       <!-- Sección superior 80% -->
       <div class="slide-top">
-        <div class="cover-wrapper">
-          <img
-            class="album-cover"
-            :src="track.image"
-            alt="Carátula del Álbum"
-            v-if="track.image"
-          />
-        </div>
         <div class="text-wrapper">
           <!-- Persona que recomienda -->
           <h2 class="message">{{ track.reason }}</h2>
@@ -34,8 +26,24 @@
       <!-- Sección inferior 20% -->
       <div class="slide-bottom">
         <div class="info-wrapper">
-          <h3 class="song-title">{{ track.name }}</h3>
-          <h4 class="song-artist">{{ track.artist }}</h4>
+          <div class="cover-wrapper">
+            <img
+              class="album-cover"
+              :src="track.image"
+              alt="Carátula del Álbum"
+              v-if="track.image"
+            />
+            <img
+              class="album-cover"
+              src="https://picsum.photos/id/1015/200/300"
+              alt="Carátula del Álbum"
+              v-else
+            />
+          </div>
+          <div class="info-wrapper-text">
+            <h3 class="song-title">{{ track.name }}</h3>
+            <h4 class="song-artist">{{ track.artist }}</h4>
+          </div>
         </div>
       </div>
     </div>
@@ -43,21 +51,30 @@
 </template>
 
 <script>
-import tracks from "../tracks.json";
 import gradients from "../gradients.json";
+
+let audioInstance = null;
 
 export default {
   name: "Slider",
+  props: {
+    tracks: {
+      type: Array,
+      required: true
+    }
+  },
   data() {
     return {
-      tracks: tracks,
-      currentIndex: 0,
       gradients: gradients,
+      currentIndex: 0,
+      isPlaying: false
     };
   },
   mounted() {
     // Para que reciba eventos de teclado al tener focus
     this.$el.focus();
+    this.stopPreview();
+    this.playPreview(this.tracks[this.currentIndex].previewUrl);
   },
   methods: {
     handleClick(e) {
@@ -74,15 +91,38 @@ export default {
         // Si quieres que sea cíclico
         this.currentIndex = 0;
       }
+
+      this.stopPreview();
+      this.playPreview(this.tracks[this.currentIndex].previewUrl);
+
     },
     prevTrack() {
       if (this.currentIndex > 0) {
         this.currentIndex--;
       } else {
-        // Si quieres que sea cíclico
         this.currentIndex = this.tracks.length - 1;
       }
+
+      this.stopPreview();
+      this.playPreview(this.tracks[this.currentIndex].previewUrl);
+
     },
+    playPreview(url) {
+      audioInstance = new Audio(url);
+      audioInstance.play().then(() => {
+        this.isPlaying = true;
+      }).catch(err => {
+        console.log("Cant play audio", err);
+          this.isPlaying = false;
+      });
+    },
+    stopPreview() {
+      if (audioInstance) {
+        audioInstance.pause();
+        audioInstance = null;
+        this.isPlaying = false;
+      }
+    }
   },
 };
 </script>
@@ -168,29 +208,33 @@ export default {
 }
 
 .album-cover {
-  max-height: 100%;
-  max-width: 100%;
-  object-fit: contain;
   border: 2px solid rgba(255, 255, 255, 0.5);
   border-radius: 4px;
+  width: 80px;
+  height: 80px;
 }
 
 .info-wrapper {
   display: flex;
+  flex-direction: row;
+  flex: 1;
+  gap: 1rem;
+}
+
+.info-wrapper-text {
+  display: flex;
   flex-direction: column;
-  justify-content: center;
   flex: 1;
 }
 
 .song-title {
-  font-size: clamp(1rem, 3vw, 2rem);
+  font-size: clamp(1rem, 2vw, 2rem);
   margin: 0;
 }
 
 .song-artist {
-  font-size: clamp(0.8rem, 2vw, 1.5rem);
+  font-size: clamp(0.8rem, 1vw, 1.5rem);
   margin: 0.3rem 0 0 0;
   font-weight: 300;
-  opacity: 0.9;
 }
 </style>
