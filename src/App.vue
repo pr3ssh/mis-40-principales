@@ -14,7 +14,7 @@
       </div>
       <div class="welcome-content">
         <h1>Mis 40 Principales</h1>
-        <p>Un viaje por la música que ha marcado tu vida (por ahora)</p>
+        <p>Un viaje por la música que ha marcado tu vida</p>
         <button @click="activateSound">Comenzar</button>
       </div>
     </div>

@@ -11,7 +11,12 @@
       v-for="(track, index) in tracks"
       v-show="index === currentIndex"
       :key="track.name"
-      :style="{ background: gradients[currentIndex % gradients.length] }"
+      :style="{
+        backgroundImage: `url(${track.image}), ${gradients[currentIndex]}`,
+        backgroundBlendMode: 'overlay',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center'
+      }"
     >
       <!-- Sección superior 80% -->
       <div class="slide-top">
