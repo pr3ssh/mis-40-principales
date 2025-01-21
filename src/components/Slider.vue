@@ -182,6 +182,7 @@ export default {
 }
 
 .slide-bottom {
+  background-color: black;
   flex: 0 0 calc(20vh - 24px);
   display: flex;
   flex-direction: row;

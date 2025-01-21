@@ -115,8 +115,10 @@ export default {
   color: white;
   border: 2px solid black;
   border-radius: 4px;
-  width: 200px;
-  height: 50px;
+  width: 220px;
+  height: 60px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 .welcome-content button:hover {
   border: 2px solid white;
