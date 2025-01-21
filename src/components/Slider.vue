@@ -60,14 +60,14 @@ export default {
   props: {
     tracks: {
       type: Array,
-      required: true
-    }
+      required: true,
+    },
   },
   data() {
     return {
       gradients: gradients,
       currentIndex: 0,
-      isPlaying: false
+      isPlaying: false,
     };
   },
   mounted() {
@@ -94,7 +94,6 @@ export default {
 
       this.stopPreview();
       this.playPreview(this.tracks[this.currentIndex].previewUrl);
-
     },
     prevTrack() {
       if (this.currentIndex > 0) {
@@ -105,16 +104,19 @@ export default {
 
       this.stopPreview();
       this.playPreview(this.tracks[this.currentIndex].previewUrl);
-
     },
     playPreview(url) {
       audioInstance = new Audio(url);
-      audioInstance.play().then(() => {
-        this.isPlaying = true;
-      }).catch(err => {
-        console.log("Cant play audio", err);
+      audioInstance.volume = 0.25;
+      audioInstance
+        .play()
+        .then(() => {
+          this.isPlaying = true;
+        })
+        .catch((err) => {
+          console.log("Cant play audio", err);
           this.isPlaying = false;
-      });
+        });
     },
     stopPreview() {
       if (audioInstance) {
@@ -122,7 +124,7 @@ export default {
         audioInstance = null;
         this.isPlaying = false;
       }
-    }
+    },
   },
 };
 </script>
