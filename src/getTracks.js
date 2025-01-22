@@ -7,7 +7,7 @@ const { getData, getPreview, getTracks, getDetails } =
 let tracks = [];
 
 getDetails(
-  "https://open.spotify.com/playlist/5fVeETc29lXJOcYNuPlxAd?si=8e1086cef08c4a5c"
+  "https://open.spotify.com/playlist/5fVeETc29lXJOcYNuPlxAd?si=6c54f84ee5c7483c"
 ).then((data) => {
   tracks = data["tracks"];
 

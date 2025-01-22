@@ -1,173 +1,13 @@
 [
   {
-    "artist": "Triple XXX, ToteKing",
-    "duration": 341812,
-    "name": "T Vas a Arrepentir",
-    "previewUrl": "https://p.scdn.co/mp3-preview/8d487aef066aebd16e591b90898be96b204e28f6",
-    "uri": "spotify:track:2booFnQtSN9SK4LGjHUcrx",
-    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27376e1111c941ec22779fe34fd",
-    "recommendedBy": "",
-    "reason": ""
-  },
-  {
     "artist": "Kase.O",
     "duration": 211160,
     "name": "Mazas y Catapultas",
     "previewUrl": "https://p.scdn.co/mp3-preview/cab5ac447ff21d95719d39c2f94febc74978fea0",
     "uri": "spotify:track:4QNZEiq8TTpXwJw7iRDVe6",
     "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273bc81387c8a0832745989f02a",
-    "recommendedBy": "",
-    "reason": ""
-  },
-  {
-    "artist": "Baiuca, Lilaina",
-    "duration": 254000,
-    "name": "Meigallo",
-    "previewUrl": "https://p.scdn.co/mp3-preview/182e5d6479af634d6cf99c023d7ded1388e652f7",
-    "uri": "spotify:track:2UrQzgwtx56h3dXs3WGXrQ",
-    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739abed15056a8b8aa0acf7535",
-    "recommendedBy": "",
-    "reason": ""
-  },
-  {
-    "artist": "Aretha Franklin",
-    "duration": 139733,
-    "name": "Think",
-    "previewUrl": "https://p.scdn.co/mp3-preview/9c6ac431a91feba82882d2d33beeb25d456da663",
-    "uri": "spotify:track:4yQw7FR9lcvL6RHtegbJBh",
-    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27346c31f64babcbfca6e061b6b",
-    "recommendedBy": "",
-    "reason": ""
-  },
-  {
-    "artist": "Buena Vista Social Club",
-    "duration": 258693,
-    "name": "Chan Chan",
-    "previewUrl": "https://p.scdn.co/mp3-preview/74dc6eb8f978e16ef80b0c17df14d13c353a733d",
-    "uri": "spotify:track:3bxZhauuIU4ubctdRZwPYW",
-    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e14a9fa0dd781bff247116b3",
-    "recommendedBy": "",
-    "reason": ""
-  },
-  {
-    "artist": "Alejandro Sanz",
-    "duration": 290973,
-    "name": "Amiga mía",
-    "previewUrl": "https://p.scdn.co/mp3-preview/2ef6ce918040a9ca70156a9d70889d39781a7203",
-    "uri": "spotify:track:6kQYMqjobmB8MkWwa9OUyA",
-    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2733443d9c76e9713a5986c983c",
-    "recommendedBy": "",
-    "reason": ""
-  },
-  {
-    "artist": "Gala, Molella, Phil Jay",
-    "duration": 213394,
-    "name": "Freed From Desire - prod. Molella, Phil Jay",
-    "previewUrl": "https://p.scdn.co/mp3-preview/fe2c9b046ae48cea7c736b25b9e2000fbd7765b1",
-    "uri": "spotify:track:3u5N55tHf7hXATSQrjBh2q",
-    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273e3a26492e5b3a5f37021bd2d",
-    "recommendedBy": "",
-    "reason": ""
-  },
-  {
-    "artist": "The Gardener, SKLT SLKT",
-    "duration": 246000,
-    "name": "Nube Negra",
-    "previewUrl": "https://p.scdn.co/mp3-preview/24d5590ad2ce28f64830643f2737fbe4567738ed",
-    "uri": "spotify:track:22cb4K3qSdU53ZEdR5K9Y8",
-    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27301e85c2936bcfbb40a780d04",
-    "recommendedBy": "",
-    "reason": ""
-  },
-  {
-    "artist": "Jesus Vazquez",
-    "duration": 241666,
-    "name": "Y Yo Te Bese",
-    "previewUrl": "https://p.scdn.co/mp3-preview/43a59131d2f79e6d98a0f8a9a3c0b715498da3a1",
-    "uri": "spotify:track:05ALUoD4QK1wvea2UVH8nV",
-    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ad3ccadf7c38fdc512cf2909",
-    "recommendedBy": "",
-    "reason": ""
-  },
-  {
-    "artist": "Elbicho",
-    "duration": 238280,
-    "name": "Parque Triana",
-    "previewUrl": "https://p.scdn.co/mp3-preview/0477573149a8d6e022c0ae0e820d012b46ad71d9",
-    "uri": "spotify:track:3UimGpPlxvPaQ6iKLXUerS",
-    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273d167010ad2734eaf6cbad397",
-    "recommendedBy": "",
-    "reason": ""
-  },
-  {
-    "artist": "Beyoncé",
-    "duration": 193213,
-    "name": "Single Ladies (Put a Ring on It)",
-    "previewUrl": "https://p.scdn.co/mp3-preview/c2ded1a34c261f0a980ffa0f65bbb5f3dde28c24",
-    "uri": "spotify:track:5R9a4t5t5O0IsznsrKPVro",
-    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273801c4d205accdba0a468a10b",
-    "recommendedBy": "",
-    "reason": ""
-  },
-  {
-    "artist": "Queen",
-    "duration": 223080,
-    "name": "I Want To Break Free",
-    "previewUrl": "https://p.scdn.co/mp3-preview/d8997dade242cd4659ca77facf886305754d1350",
-    "uri": "spotify:track:7iAqvWLgZzXvH38lA06QZg",
-    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273e8b066f70c206551210d902b",
-    "recommendedBy": "",
-    "reason": ""
-  },
-  {
-    "artist": "Estopa",
-    "duration": 202026,
-    "name": "Como Camarón",
-    "previewUrl": "https://p.scdn.co/mp3-preview/ac4142039a1df4c71e6adfd19d386e5836ac58ed",
-    "uri": "spotify:track:1VB4sadHjFcFklHcZuoROi",
-    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2731a311570340a4f6530da158b",
-    "recommendedBy": "",
-    "reason": ""
-  },
-  {
-    "artist": "Paquita La Del Barrio",
-    "duration": 218197,
-    "name": "Rata De Dos Patas",
-    "previewUrl": "https://p.scdn.co/mp3-preview/59114e773aae65ee2ee50787cf33e0b290d1244a",
-    "uri": "spotify:track:2okIVxq5V9JDpATsGA3t36",
-    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27387689ec667f476be63f2037a",
-    "recommendedBy": "",
-    "reason": ""
-  },
-  {
-    "artist": "The xx",
-    "duration": 201946,
-    "name": "Crystalised",
-    "previewUrl": "https://p.scdn.co/mp3-preview/93a08ec3393ceaeddd12342158095bbc852b133b",
-    "uri": "spotify:track:5UBBJnFxsfjFxfrtvErQoH",
-    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27348a95897fd91eb34032a93e3",
-    "recommendedBy": "",
-    "reason": ""
-  },
-  {
-    "artist": "Los de mi Patio",
-    "duration": 273240,
-    "name": "Mi Fe Se Llama Rocio",
-    "previewUrl": "https://p.scdn.co/mp3-preview/65e364a414f3e2d0b6133ddddae81e6bbef81f70",
-    "uri": "spotify:track:68vNmiTgWtXxZhY4SWAa41",
-    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273d106428891320c4dc3db79c9",
-    "recommendedBy": "",
-    "reason": ""
-  },
-  {
-    "artist": "Elvis Crespo",
-    "duration": 267160,
-    "name": "Suavemente",
-    "previewUrl": "https://p.scdn.co/mp3-preview/bb5d06bfffc14e0beff1e1b5e937dc0f46b0526e",
-    "uri": "spotify:track:7JIjUx3GsL0upxmNJacmtz",
-    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273374a32d39696d6ee63c41ca4",
-    "recommendedBy": "",
-    "reason": ""
+    "recommendedBy": "Pres",
+    "reason": "Gracias por derribar mi coraza"
   },
   {
     "artist": "Rihanna",
@@ -176,117 +16,18 @@
     "previewUrl": "https://p.scdn.co/mp3-preview/71c35cb0c63e46f1a8c62135283cb2723c675ecf",
     "uri": "spotify:track:5WQQIDU3HRaMyPkob8mpFb",
     "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273bef074de9ca825bddaeb9f46",
-    "recommendedBy": "",
-    "reason": ""
+    "recommendedBy": "María Barba",
+    "reason": "Nuestra primera coreografía"
   },
   {
-    "artist": "KAROL G",
-    "duration": 207626,
-    "name": "PROVENZA",
-    "previewUrl": "https://p.scdn.co/mp3-preview/5ac5be0a82c27868ed24dbbdccc826d44aafd64f",
-    "uri": "spotify:track:3HqcNJdZ2seoGxhn0wVNDK",
-    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27382de1ca074ae63cb18fce335",
-    "recommendedBy": "",
-    "reason": ""
-  },
-  {
-    "artist": "Fillas de Cassandra, La Pegatina",
-    "duration": 193827,
-    "name": "MARICARMEN",
-    "previewUrl": "https://p.scdn.co/mp3-preview/5f905bb8877cd0a1b34aeeb38f5f8846406db3b3",
-    "uri": "spotify:track:43IK9P5MlkuDsnvfCo7IDb",
-    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2732223daa89ea8d13a305107e1",
-    "recommendedBy": "",
-    "reason": ""
-  },
-  {
-    "artist": "Rocío Jurado",
-    "duration": 311573,
-    "name": "Punto de partida",
-    "previewUrl": "https://p.scdn.co/mp3-preview/b2c0e111fe0f554987bdec6fdee8b96691a679c4",
-    "uri": "spotify:track:3Q9ZMpX2Vz7TN4jHdkAgHe",
-    "recommendedBy": "",
-    "reason": ""
-  },
-  {
-    "artist": "The Knife",
-    "duration": 228066,
-    "name": "Pass This On",
-    "previewUrl": "https://p.scdn.co/mp3-preview/6b76042177b257f90814cf8aad8a87d3c6e52e19",
-    "uri": "spotify:track:0aWhxzFrP2Yyz3CetJe0xE",
-    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27320feadae116e4b306d58d69c",
-    "recommendedBy": "",
-    "reason": ""
-  },
-  {
-    "artist": "The Knife",
-    "duration": 293626,
-    "name": "Silent Shout",
-    "previewUrl": "https://p.scdn.co/mp3-preview/93ee8a866c45113a63333faa72d2b2d7e0756ac8",
-    "uri": "spotify:track:2i9eB71UxhOzy9tDjHoQ0f",
-    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273feeb53e21e6bff837e915b47",
-    "recommendedBy": "",
-    "reason": ""
-  },
-  {
-    "artist": "Azucar Moreno",
-    "duration": 141266,
-    "name": "No Pretenderas",
-    "previewUrl": "https://p.scdn.co/mp3-preview/3cace7c08853226aa54164bf0ad453d3074de831",
-    "uri": "spotify:track:4G3HiJa12sdlGkqypE8SdQ",
-    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27331727d832d24d8fbd93e507a",
-    "recommendedBy": "",
-    "reason": ""
-  },
-  {
-    "artist": "Azucar Moreno",
-    "duration": 333586,
-    "name": "Ven Devorame Otra Vez",
-    "previewUrl": "https://p.scdn.co/mp3-preview/ce774575aa38fef73006a71e682bd05f52597a94",
-    "uri": "spotify:track:4UROdhVmlS4LJqIDmRQdA2",
-    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27347ad3b84e433323553c80cbd",
-    "recommendedBy": "",
-    "reason": ""
-  },
-  {
-    "artist": "Ojos de Brujo",
-    "duration": 200440,
-    "name": "Ventilaor R-80",
-    "previewUrl": "https://p.scdn.co/mp3-preview/208f192c614fad6c47f52630e7c85e8ba5291fa4",
-    "uri": "spotify:track:2PzuUx4CHOhtPm308Akht8",
-    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27319bd778fcdd2ea140f93178b",
-    "recommendedBy": "",
-    "reason": ""
-  },
-  {
-    "artist": "Cantores De Hispalis",
-    "duration": 295400,
-    "name": "Quiero cruzar la bahía",
-    "previewUrl": "https://p.scdn.co/mp3-preview/535be7ed62ca8ad22fbfff4d4d48de4fde7cece9",
-    "uri": "spotify:track:5LWyyu0g9Rvzo4c6qFWVAv",
-    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27340190f784737ba2c5b4651ca",
-    "recommendedBy": "",
-    "reason": ""
-  },
-  {
-    "artist": "Julio Iglesias",
-    "duration": 272906,
-    "name": "El Bacalao",
-    "previewUrl": "https://p.scdn.co/mp3-preview/9af4a39e1887ed2ef285228c435ad470bc5fbcc5",
-    "uri": "spotify:track:2fLMS1iHOr202WkaltgoTs",
-    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273ae9c22d1cb82f6d2ed1f7eb4",
-    "recommendedBy": "",
-    "reason": ""
-  },
-  {
-    "artist": "Ojos de Brujo",
-    "duration": 244879,
-    "name": "Na en la nevera (feat. Estopa)",
-    "previewUrl": "https://p.scdn.co/mp3-preview/32513e2cbe1849e0c18684d28480dc28cd9b6cf2",
-    "uri": "spotify:track:63ZZGDzng7SRvnSdmvGm0C",
-    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273a0fd6f7a8695cb834f416b6d",
-    "recommendedBy": "",
-    "reason": ""
+    "artist": "Alejandro Sanz",
+    "duration": 290973,
+    "name": "Amiga mía",
+    "previewUrl": "https://p.scdn.co/mp3-preview/2ef6ce918040a9ca70156a9d70889d39781a7203",
+    "uri": "spotify:track:6kQYMqjobmB8MkWwa9OUyA",
+    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2733443d9c76e9713a5986c983c",
+    "recommendedBy": "Gema",
+    "reason": "Cuando no te tengo a mi lado... estoy a cero coma de escuchar el llavero de San Pedro"
   },
   {
     "artist": "Tina Turner",
@@ -295,88 +36,28 @@
     "previewUrl": "https://p.scdn.co/mp3-preview/d7d283bea4bff06fb96052bb645d5559e33a53ac",
     "uri": "spotify:track:4OeFQtRyT7vsLnRTv7t8YT",
     "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273f38f318e862e9fa59f18e9fe",
-    "recommendedBy": "",
-    "reason": ""
+    "recommendedBy": "Candela",
+    "reason": "Esa Tina!"
   },
   {
-    "artist": "Pont Aeri, Marian Dacal",
-    "duration": 406400,
-    "name": "Flying Free - Original Mix",
-    "previewUrl": "https://p.scdn.co/mp3-preview/8e603f604133e3db3f2bd143d22d9a57af376793",
-    "uri": "spotify:track:5yqiverYlKEA0ly96HPq01",
-    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27369a3ac3540154b42fad94af4",
-    "recommendedBy": "",
-    "reason": ""
+    "artist": "Baiuca, Lilaina",
+    "duration": 254000,
+    "name": "Meigallo",
+    "previewUrl": "https://p.scdn.co/mp3-preview/182e5d6479af634d6cf99c023d7ded1388e652f7",
+    "uri": "spotify:track:2UrQzgwtx56h3dXs3WGXrQ",
+    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2739abed15056a8b8aa0acf7535",
+    "recommendedBy": "Pres",
+    "reason": "Sempre Galiza"
   },
   {
-    "artist": "Goran Bregović",
-    "duration": 239320,
-    "name": "Mesecina / Moonlight",
-    "previewUrl": "https://p.scdn.co/mp3-preview/329e9090ebfcc09d7a067c13e479faa1bf880d30",
-    "uri": "spotify:track:4j3HKFuIHwdxxbZmPqJJYX",
-    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273ed5393971d7dda4b9c3304fd",
-    "recommendedBy": "",
-    "reason": ""
-  },
-  {
-    "artist": "Ginebras",
-    "duration": 151262,
-    "name": "Madrid, Madrid, Madrid",
-    "previewUrl": "https://p.scdn.co/mp3-preview/58e2a491499bb50b93acf50cc5c0b8795b0a42c2",
-    "uri": "spotify:track:6s2ExuubSJPgFFvuyx0DNZ",
-    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273a8ab5534dddcd500f31e6e2e",
-    "recommendedBy": "",
-    "reason": ""
-  },
-  {
-    "artist": "Fugees, Ms. Lauryn Hill",
-    "duration": 298666,
-    "name": "Killing Me Softly With His Song",
-    "previewUrl": "https://p.scdn.co/mp3-preview/7a931688bc452843a89fbd4d83fe2986a95c182e",
-    "uri": "spotify:track:0Q0IVlqMV64kNLlwjPj0Hl",
-    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735b7865be7f7fcc05faec6137",
-    "recommendedBy": "",
-    "reason": ""
-  },
-  {
-    "artist": "Bomfunk MC's",
-    "duration": 306000,
-    "name": "Freestyler",
-    "previewUrl": "https://p.scdn.co/mp3-preview/90be9941873e845054e2a2175b6e192bf86cbe17",
-    "uri": "spotify:track:4eZO97RGFo7IN6gm24Nv0S",
-    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273a982383dce1f18e37c3aeeae",
-    "recommendedBy": "",
-    "reason": ""
-  },
-  {
-    "artist": "DJ Jose, Paul Sirrell, Dave McDonald",
-    "duration": 357598,
-    "name": "Stepping To The Beat - Dave McDonald Remix",
-    "previewUrl": "https://p.scdn.co/mp3-preview/5269cd44f92545e47253da33aeaa20e78d87b874",
-    "uri": "spotify:track:7urqGTxseR803yscJc7hf0",
-    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273fed7391dc21e83eeef4d9e70",
-    "recommendedBy": "",
-    "reason": ""
-  },
-  {
-    "artist": "Beirut",
-    "duration": 214413,
-    "name": "La Llorona",
-    "previewUrl": "https://p.scdn.co/mp3-preview/00aaf61e1869e922f726914ce166b332e28999d7",
-    "uri": "spotify:track:24LDPVMwvoFOLzqsi6ll3I",
-    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27388f2b031d26e8eb57e49abe1",
-    "recommendedBy": "",
-    "reason": ""
-  },
-  {
-    "artist": "Lole Y Manuel",
-    "duration": 235333,
-    "name": "Giralda",
-    "previewUrl": "https://p.scdn.co/mp3-preview/4efb91a6d203546204fbc180434e5310d1962e8e",
-    "uri": "spotify:track:5hzIPxmGpWhuFjWvG5n8AR",
-    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2730e0757e56bcb868aabb5cb50",
-    "recommendedBy": "",
-    "reason": ""
+    "artist": "KAROL G",
+    "duration": 207626,
+    "name": "PROVENZA",
+    "previewUrl": "https://p.scdn.co/mp3-preview/5ac5be0a82c27868ed24dbbdccc826d44aafd64f",
+    "uri": "spotify:track:3HqcNJdZ2seoGxhn0wVNDK",
+    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27382de1ca074ae63cb18fce335",
+    "recommendedBy": "María Barba",
+    "reason": "Nuestra musa niñatah"
   },
   {
     "artist": "Los Ángeles Azules, Natalia Lafourcade",
@@ -385,8 +66,327 @@
     "previewUrl": "https://p.scdn.co/mp3-preview/84cd64e702bf289547401f9a0edbbd197f63c2eb",
     "uri": "spotify:track:0HlMshB5JmZjPNbOuOgFHN",
     "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273ba665c3ce15a992b68dbe2f3",
-    "recommendedBy": "",
-    "reason": ""
+    "recommendedBy": "Pres",
+    "reason": "NUNCA"
+  },
+  {
+    "artist": "Pont Aeri, Marian Dacal",
+    "duration": 406400,
+    "name": "Flying Free - Original Mix",
+    "previewUrl": "https://p.scdn.co/mp3-preview/8e603f604133e3db3f2bd143d22d9a57af376793",
+    "uri": "spotify:track:5yqiverYlKEA0ly96HPq01",
+    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27369a3ac3540154b42fad94af4",
+    "recommendedBy": "Gabri",
+    "reason": "Será mi compañera de trivial 4eva (aunque nadie más nos aguante)"
+  },
+  {
+    "artist": "Gala, Molella, Phil Jay",
+    "duration": 213394,
+    "name": "Freed From Desire - prod. Molella, Phil Jay",
+    "previewUrl": "https://p.scdn.co/mp3-preview/fe2c9b046ae48cea7c736b25b9e2000fbd7765b1",
+    "uri": "spotify:track:3u5N55tHf7hXATSQrjBh2q",
+    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273e3a26492e5b3a5f37021bd2d",
+    "recommendedBy": "Sarita",
+    "reason": "Sarabarabarababaaaaa"
+  },
+  {
+    "artist": "Fatboy Slim",
+    "duration": 200960,
+    "name": "Sho Nuff",
+    "previewUrl": "https://p.scdn.co/mp3-preview/5fec2a241fa38405764974fb42aa80e78cb3cc17",
+    "uri": "spotify:track:3kMCa1elamcopeQaEP7TBg",
+    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273ea097abbc108fc3c19a0a873",
+    "recommendedBy": "Campito",
+    "reason": "vamOOO!!!"
+  },
+  {
+    "artist": "Bomfunk MC's",
+    "duration": 306000,
+    "name": "Freestyler",
+    "previewUrl": "https://p.scdn.co/mp3-preview/90be9941873e845054e2a2175b6e192bf86cbe17",
+    "uri": "spotify:track:4eZO97RGFo7IN6gm24Nv0S",
+    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a982383dce1f18e37c3aeeae",
+    "recommendedBy": "Joseka",
+    "reason": "La música nos une en recuerdos, historias, amistad y FIESTAAA! Feliz cumpleaños, te quiero."
+  },
+  {
+    "artist": "The Knife",
+    "duration": 228066,
+    "name": "Pass This On",
+    "previewUrl": "https://p.scdn.co/mp3-preview/6b76042177b257f90814cf8aad8a87d3c6e52e19",
+    "uri": "spotify:track:0aWhxzFrP2Yyz3CetJe0xE",
+    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27320feadae116e4b306d58d69c",
+    "recommendedBy": "Caro",
+    "reason": "Imposible trasladar en palabras. Somos nosotras."
+  },
+  {
+    "artist": "Buena Vista Social Club",
+    "duration": 258693,
+    "name": "Chan Chan",
+    "previewUrl": "https://p.scdn.co/mp3-preview/74dc6eb8f978e16ef80b0c17df14d13c353a733d",
+    "uri": "spotify:track:3bxZhauuIU4ubctdRZwPYW",
+    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273e14a9fa0dd781bff247116b3",
+    "recommendedBy": "Pres",
+    "reason": "Cuánta miel en esa luna tan revolucionaria"
+  },
+  {
+    "artist": "Goran Bregović",
+    "duration": 239320,
+    "name": "Mesecina / Moonlight",
+    "previewUrl": "https://p.scdn.co/mp3-preview/329e9090ebfcc09d7a067c13e479faa1bf880d30",
+    "uri": "spotify:track:4j3HKFuIHwdxxbZmPqJJYX",
+    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273ed5393971d7dda4b9c3304fd",
+    "recommendedBy": "Dani y Silvia",
+    "reason": "Abrazote fuerte"
+  },
+  {
+    "artist": "Azucar Moreno",
+    "duration": 333586,
+    "name": "Ven Devorame Otra Vez",
+    "previewUrl": "https://p.scdn.co/mp3-preview/ce774575aa38fef73006a71e682bd05f52597a94",
+    "uri": "spotify:track:4UROdhVmlS4LJqIDmRQdA2",
+    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27347ad3b84e433323553c80cbd",
+    "recommendedBy": "Chione",
+    "reason": "Te quiero hermana"
+  },
+  {
+    "artist": "Julio Iglesias",
+    "duration": 272906,
+    "name": "El Bacalao",
+    "previewUrl": "https://p.scdn.co/mp3-preview/9af4a39e1887ed2ef285228c435ad470bc5fbcc5",
+    "uri": "spotify:track:2fLMS1iHOr202WkaltgoTs",
+    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273ae9c22d1cb82f6d2ed1f7eb4",
+    "recommendedBy": "María y Luis",
+    "reason": "Buenas hoy an traido libros de lecturas con eso que hay que hacer"
+  },
+  {
+    "artist": "Ojos de Brujo",
+    "duration": 200440,
+    "name": "Ventilaor R-80",
+    "previewUrl": "https://p.scdn.co/mp3-preview/208f192c614fad6c47f52630e7c85e8ba5291fa4",
+    "uri": "spotify:track:2PzuUx4CHOhtPm308Akht8",
+    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27319bd778fcdd2ea140f93178b",
+    "recommendedBy": "Chione",
+    "reason": "A que me tiro?? -Tú no eres capaz… y Marga se tiró…"
+  },
+  {
+    "artist": "The Cranberries",
+    "duration": 306440,
+    "name": "Zombie",
+    "previewUrl": "https://p.scdn.co/mp3-preview/17be792bc7651304002a6dcea847087501c8305a",
+    "uri": "spotify:track:7EZC6E7UjZe63f1jRmkWxt",
+    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27372d481a5999197ef5f42f796",
+    "recommendedBy": "Caro",
+    "reason": "Raíces celtas. Nuestra adolescencia."
+  },
+  {
+    "artist": "Ginebras",
+    "duration": 151262,
+    "name": "Madrid, Madrid, Madrid",
+    "previewUrl": "https://p.scdn.co/mp3-preview/58e2a491499bb50b93acf50cc5c0b8795b0a42c2",
+    "uri": "spotify:track:6s2ExuubSJPgFFvuyx0DNZ",
+    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a8ab5534dddcd500f31e6e2e",
+    "recommendedBy": "Maria Estallo",
+    "reason": "¡¡Mi Hue ❤️!!"
+  },
+  {
+    "artist": "Paquita La Del Barrio",
+    "duration": 218197,
+    "name": "Rata De Dos Patas",
+    "previewUrl": "https://p.scdn.co/mp3-preview/59114e773aae65ee2ee50787cf33e0b290d1244a",
+    "uri": "spotify:track:2okIVxq5V9JDpATsGA3t36",
+    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27387689ec667f476be63f2037a",
+    "recommendedBy": "Isaac",
+    "reason": "De Erhardt a Marmedsa en busca de la felicidad"
+  },
+  {
+    "artist": "The xx",
+    "duration": 201946,
+    "name": "Crystalised",
+    "previewUrl": "https://p.scdn.co/mp3-preview/93a08ec3393ceaeddd12342158095bbc852b133b",
+    "uri": "spotify:track:5UBBJnFxsfjFxfrtvErQoH",
+    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27348a95897fd91eb34032a93e3",
+    "recommendedBy": "Manu",
+    "reason": "Illa, ¿eso es Crystalised de XX? (XX leído en plan ks ks, no sé si me explico)"
+  },
+  {
+    "artist": "DJ Jose, Paul Sirrell, Dave McDonald",
+    "duration": 357598,
+    "name": "Stepping To The Beat - Dave McDonald Remix",
+    "previewUrl": "https://p.scdn.co/mp3-preview/5269cd44f92545e47253da33aeaa20e78d87b874",
+    "uri": "spotify:track:7urqGTxseR803yscJc7hf0",
+    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273fed7391dc21e83eeef4d9e70",
+    "recommendedBy": "Pipi",
+    "reason": "Tu… tu eres de las Barbados!!"
+  },
+  {
+    "artist": "The Gardener, SKLT SLKT",
+    "duration": 246000,
+    "name": "Nube Negra",
+    "previewUrl": "https://p.scdn.co/mp3-preview/24d5590ad2ce28f64830643f2737fbe4567738ed",
+    "uri": "spotify:track:22cb4K3qSdU53ZEdR5K9Y8",
+    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27301e85c2936bcfbb40a780d04",
+    "recommendedBy": "Magu",
+    "reason": "#MyWeapon"
+  },
+  {
+    "artist": "Lole Y Manuel",
+    "duration": 235333,
+    "name": "Giralda",
+    "previewUrl": "https://p.scdn.co/mp3-preview/4efb91a6d203546204fbc180434e5310d1962e8e",
+    "uri": "spotify:track:5hzIPxmGpWhuFjWvG5n8AR",
+    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2730e0757e56bcb868aabb5cb50",
+    "recommendedBy": "Pres",
+    "reason": "Gracias por dejarme vivir Sevilla a tu lado"
+  },
+  {
+    "artist": "Azucar Moreno",
+    "duration": 141266,
+    "name": "No Pretenderas",
+    "previewUrl": "https://p.scdn.co/mp3-preview/3cace7c08853226aa54164bf0ad453d3074de831",
+    "uri": "spotify:track:4G3HiJa12sdlGkqypE8SdQ",
+    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27331727d832d24d8fbd93e507a",
+    "recommendedBy": "Carmela",
+    "reason": "¡Hay que probar esas tetas!"
+  },
+  {
+    "artist": "Rocío Jurado",
+    "duration": 311573,
+    "name": "Punto de partida",
+    "previewUrl": "https://p.scdn.co/mp3-preview/b2c0e111fe0f554987bdec6fdee8b96691a679c4",
+    "uri": "spotify:track:3Q9ZMpX2Vz7TN4jHdkAgHe",
+    "recommendedBy": "Paula",
+    "reason": "La puta ama"
+  },
+  {
+    "artist": "Cantores De Hispalis",
+    "duration": 295400,
+    "name": "Quiero cruzar la bahía",
+    "previewUrl": "https://p.scdn.co/mp3-preview/535be7ed62ca8ad22fbfff4d4d48de4fde7cece9",
+    "uri": "spotify:track:5LWyyu0g9Rvzo4c6qFWVAv",
+    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27340190f784737ba2c5b4651ca",
+    "recommendedBy": "Maite",
+    "reason": "Te quiero mucho amiga"
+  },
+  {
+    "artist": "Jesus Vazquez",
+    "duration": 241666,
+    "name": "Y Yo Te Bese",
+    "previewUrl": "https://p.scdn.co/mp3-preview/43a59131d2f79e6d98a0f8a9a3c0b715498da3a1",
+    "uri": "spotify:track:05ALUoD4QK1wvea2UVH8nV",
+    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ad3ccadf7c38fdc512cf2909",
+    "recommendedBy": "Rafa Rubio",
+    "reason": "PUTO AMO"
+  },
+  {
+    "artist": "Elbicho",
+    "duration": 238280,
+    "name": "Parque Triana",
+    "previewUrl": "https://p.scdn.co/mp3-preview/0477573149a8d6e022c0ae0e820d012b46ad71d9",
+    "uri": "spotify:track:3UimGpPlxvPaQ6iKLXUerS",
+    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273d167010ad2734eaf6cbad397",
+    "recommendedBy": "Laura",
+    "reason": "Petaka Marronera"
+  },
+  {
+    "artist": "Beyoncé",
+    "duration": 193213,
+    "name": "Single Ladies (Put a Ring on It)",
+    "previewUrl": "https://p.scdn.co/mp3-preview/c2ded1a34c261f0a980ffa0f65bbb5f3dde28c24",
+    "uri": "spotify:track:5R9a4t5t5O0IsznsrKPVro",
+    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273801c4d205accdba0a468a10b",
+    "recommendedBy": "Ross Mery",
+    "reason": "Tardes y noches en el Noha de Mendigorria"
+  },
+  {
+    "artist": "Queen",
+    "duration": 223080,
+    "name": "I Want To Break Free",
+    "previewUrl": "https://p.scdn.co/mp3-preview/d8997dade242cd4659ca77facf886305754d1350",
+    "uri": "spotify:track:7iAqvWLgZzXvH38lA06QZg",
+    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273e8b066f70c206551210d902b",
+    "recommendedBy": "Nachi",
+    "reason": "Disfruta de la cuarenta pero nunca olvides que todo es gracias a la primera carta a los corintios"
+  },
+  {
+    "artist": "Ojos de Brujo",
+    "duration": 244879,
+    "name": "Na en la nevera (feat. Estopa)",
+    "previewUrl": "https://p.scdn.co/mp3-preview/32513e2cbe1849e0c18684d28480dc28cd9b6cf2",
+    "uri": "spotify:track:63ZZGDzng7SRvnSdmvGm0C",
+    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273a0fd6f7a8695cb834f416b6d",
+    "recommendedBy": "Gloria",
+    "reason": "Por muchas más risas y momentos que nos quedan por compartir ahora con nuestras pequeñas. Te quiero Margui."
+  },
+  {
+    "artist": "Estopa",
+    "duration": 202026,
+    "name": "Como Camarón",
+    "previewUrl": "https://p.scdn.co/mp3-preview/ac4142039a1df4c71e6adfd19d386e5836ac58ed",
+    "uri": "spotify:track:1VB4sadHjFcFklHcZuoROi",
+    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2731a311570340a4f6530da158b",
+    "recommendedBy": "Chusa",
+    "reason": "Es superior al miedo..."
+  },
+  {
+    "artist": "Fugees, Ms. Lauryn Hill",
+    "duration": 298666,
+    "name": "Killing Me Softly With His Song",
+    "previewUrl": "https://p.scdn.co/mp3-preview/7a931688bc452843a89fbd4d83fe2986a95c182e",
+    "uri": "spotify:track:0Q0IVlqMV64kNLlwjPj0Hl",
+    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2735b7865be7f7fcc05faec6137",
+    "recommendedBy": "Machuca",
+    "reason": "Gracias por ofrecerme siempre un refugio en tu habitación cuando más lo necesitaba"
+  },
+  {
+    "artist": "M83",
+    "duration": 243960,
+    "name": "Midnight City",
+    "previewUrl": "https://p.scdn.co/mp3-preview/a3bbe39182561b00b4104b859c29361732c0978d",
+    "uri": "spotify:track:6GyFP1nfCDB8lbD2bG0Hq9",
+    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273b3591763154a27326b3f431a",
+    "recommendedBy": "Caro",
+    "reason": "De los conciertos más especiales de mi vida"
+  },
+  {
+    "artist": "Fillas de Cassandra, La Pegatina",
+    "duration": 193827,
+    "name": "MARICARMEN",
+    "previewUrl": "https://p.scdn.co/mp3-preview/5f905bb8877cd0a1b34aeeb38f5f8846406db3b3",
+    "uri": "spotify:track:43IK9P5MlkuDsnvfCo7IDb",
+    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2732223daa89ea8d13a305107e1",
+    "recommendedBy": "María Barba",
+    "reason": "...y el bucle del momento. Eres la mejor compi de pista y de vida, ¡te quiero con locura amiga!"
+  },
+  {
+    "artist": "Elvis Crespo",
+    "duration": 267160,
+    "name": "Suavemente",
+    "previewUrl": "https://p.scdn.co/mp3-preview/bb5d06bfffc14e0beff1e1b5e937dc0f46b0526e",
+    "uri": "spotify:track:7JIjUx3GsL0upxmNJacmtz",
+    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273374a32d39696d6ee63c41ca4",
+    "recommendedBy": "Nenocha",
+    "reason": "Te quiero con locura hija mía"
+  },
+  {
+    "artist": "Los de mi Patio",
+    "duration": 273240,
+    "name": "Mi Fe Se Llama Rocio",
+    "previewUrl": "https://p.scdn.co/mp3-preview/65e364a414f3e2d0b6133ddddae81e6bbef81f70",
+    "uri": "spotify:track:68vNmiTgWtXxZhY4SWAa41",
+    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273d106428891320c4dc3db79c9",
+    "recommendedBy": "Rafael",
+    "reason": "A.R.T.E. desde pequeña"
+  },
+  {
+    "artist": "Beirut",
+    "duration": 214413,
+    "name": "La Llorona",
+    "previewUrl": "https://p.scdn.co/mp3-preview/00aaf61e1869e922f726914ce166b332e28999d7",
+    "uri": "spotify:track:24LDPVMwvoFOLzqsi6ll3I",
+    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27388f2b031d26e8eb57e49abe1",
+    "recommendedBy": "Pres",
+    "reason": "Agárrate fuerte que nos toca"
   },
   {
     "artist": "Bad Bunny",
@@ -395,7 +395,7 @@
     "previewUrl": "https://p.scdn.co/mp3-preview/31078ee4e5d1705665fa46d8b68afc297031f54f",
     "uri": "spotify:track:2lTm559tuIvatlT1u0JYG2",
     "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273bbd45c8d36e0e045ef640411",
-    "recommendedBy": "",
-    "reason": ""
+    "recommendedBy": "Pres",
+    "reason": "PoR OtRos CuARentA a Tu LaDo"
   }
 ]
