@@ -113,6 +113,9 @@ export default {
     playPreview(url) {
       audioInstance = new Audio(url);
       audioInstance.volume = 0.25;
+      audioInstance.addEventListener('ended', () => {
+        this.nextTrack()
+      });
       audioInstance
         .play()
         .then(() => {
