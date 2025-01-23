@@ -24,7 +24,7 @@
           <!-- Persona que recomienda -->
           <h2 class="message">{{ track.reason }}</h2>
           <!-- Mensaje o frase -->
-          <p class="recommendedBy">{{ track.recommendedBy }}</p>
+          <span class="recommendedBy">{{ track.recommendedBy }}</span>
         </div>
       </div>
 
@@ -184,9 +184,26 @@ export default {
 }
 
 .message {
-  font-size: clamp(1rem, 4vw, 2.5rem);
+  font-size: clamp(2rem, 4vw, 2.5rem);
+  color: white;
+  font-style: italic;
   line-height: 1.2;
   margin-top: 1rem;
+  margin-right: 0;
+}
+@media (min-width: 768px) {
+  .message {
+    line-height: 1.2;
+    margin-top: 1rem;
+    margin-right: 20%;
+  }
+}
+
+.recommendedBy {
+  color: white;
+  font-size: clamp(1.5rem, 2vw, 1.8rem);
+  border-top: 3px solid white;
+  padding-top: 0.5em;
 }
 
 .slide-bottom {
@@ -239,12 +256,12 @@ export default {
 }
 
 .song-title {
-  font-size: clamp(1rem, 2vw, 2rem);
+  font-size: clamp(1.3rem, 1.5vw, 1.8rem);
   margin: 0;
 }
 
 .song-artist {
-  font-size: clamp(0.8rem, 1vw, 1.5rem);
+  font-size: clamp(1rem, 1vw, 1.5rem);
   margin: 0.3rem 0 0 0;
   font-weight: 300;
 }
