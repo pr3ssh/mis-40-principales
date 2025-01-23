@@ -22,7 +22,7 @@
       <SoundAnimation class="soundIcon" />
 
       <!-- Sección superior 80% -->
-      <div class="slide-top">
+      <div class="slide-top" :key="track.name">
         <div class="text-wrapper">
           <!-- Persona que recomienda -->
           <h2 class="message">{{ track.reason }}</h2>
@@ -208,7 +208,7 @@ export default {
 
 .recommendedBy {
   color: white;
-  font-size: clamp(1.5rem, 2vw, 1.8rem);
+  font-size: clamp(1.2rem, 1.5vw, 1.5rem);
   border-top: 3px solid white;
   padding-top: 0.5em;
 }
@@ -275,7 +275,7 @@ export default {
 
 .soundIcon {
   position: absolute;
-  margin: 5%;
+  margin: 3%;
   z-index: 999;
 }
 
