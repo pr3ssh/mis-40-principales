@@ -18,6 +18,9 @@
         backgroundPosition: 'center'
       }"
     >
+
+      <SoundAnimation class="soundIcon" />
+
       <!-- Sección superior 80% -->
       <div class="slide-top">
         <div class="text-wrapper">
@@ -56,6 +59,7 @@
 </template>
 
 <script>
+import SoundAnimation from "./SoundAnimation.vue"
 import gradients from "../gradients.json";
 
 let audioInstance = null;
@@ -67,6 +71,9 @@ export default {
       type: Array,
       required: true,
     },
+  },
+  components: {
+    SoundAnimation
   },
   data() {
     return {
@@ -265,4 +272,11 @@ export default {
   margin: 0.3rem 0 0 0;
   font-weight: 300;
 }
+
+.soundIcon {
+  position: absolute;
+  margin: 5%;
+  z-index: 999;
+}
+
 </style>
